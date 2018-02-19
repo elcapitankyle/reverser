@@ -2,7 +2,7 @@
   "name": "reverser",
   "version": "1.0.0",
   "description": "Reverses the order of the words in a line of text",
-  "main": "main.js",
+  "main": "reverser.js",
   "scripts": {
     "test": "mocha test/**/*.js"
   },
