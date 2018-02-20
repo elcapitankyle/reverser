@@ -1,1 +1,1 @@
-From the project root run `npm run test`
+From the project root run `npm install` then run either `npm run test` to see the test results or `node main.js pathToSomeInputFile`

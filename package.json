@@ -4,7 +4,8 @@
   "description": "Reverses the order of the words in a line of text",
   "main": "reverser.js",
   "scripts": {
-    "test": "mocha tests/**/*.js"
+    "test": "mocha tests/**/*.js",
+    "start": "node src/main.js"
   },
   "author": "Kyle Quist",
   "license": "ISC",

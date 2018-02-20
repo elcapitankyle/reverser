@@ -5,6 +5,7 @@ reverser = require('../src/reverser');
 describe('reverser', () => {
     it('should reverse a line of words', () => {
         var result = reverser.reverse('This is a string');
+        console.log(`Simple test: ${result}`);
         expect(result).to.not.equal('This is a string', 'The line did not get reversed');
     });
     it('should reverse 5 lines with up to 25 words each', () => {
