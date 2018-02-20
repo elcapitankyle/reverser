@@ -1,1 +1,1 @@
-From the project root run `npm install` then run either `npm run test` to see the test results or `node src/main.js pathToSomeInputFile`
+From the project root run `node src/main.js pathToSomeInputFile` or, to view the tests, `npm install` then `npm run test`
