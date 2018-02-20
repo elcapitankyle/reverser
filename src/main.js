@@ -18,10 +18,10 @@ if(process.argv.length != 3){
     process.exit(0);
 }else{
     fileToTest = process.argv[2];
+    cosole.log('calling loadTheFile function')
     console.log(`Reversing all lines of text in ${fileToTest}`);
-    
     var linesOfFile = loadTheFile(fileToTest);
-    
+    console.log('After loadTheFile function')
     console.log('File contents: ' + linesOfFile);
     for(var i = 1; i <= linesOfFile[0];i++){
         let reversedLine = reverser.reverse(linesOfFile[i]);
