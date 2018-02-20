@@ -19,7 +19,7 @@ describe('reverser', () => {
         }
     });
     it('should reverse 100 lines with up to 1000 words each', () => {
-        var linesOfFile = loadTheFile('~/largeSet.txt');
+        var linesOfFile = loadTheFile('textFiles/largeSet.txt');
 
         for(var i = 1; i <= linesOfFile[0];i++){
             let reversedLine = reverser.reverse(linesOfFile[i]);
